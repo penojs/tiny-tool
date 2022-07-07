@@ -2,12 +2,13 @@
   "extends": "../../tsconfig.root.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "lib",
+    "outDir": "dist",
     "module": "ESNext",
     "declaration": true,
     "sourceMap": true
   },
   "include": [
     "./src"
-  ]
+  ],
+  "exclude": ["./__tests__"]
 }

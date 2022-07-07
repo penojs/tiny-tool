@@ -18,9 +18,20 @@ export default class Block {
     this.index = index;
     this.previewHash = previewHash;
     this.timestamp = timestamp;
-    this.data = data;
+    this.data = data;  // data 一般是 Merkle Tree
     this.hash = hash;
     this.nounce = nounce;
+  }
+
+  toJson(){
+    return {
+      index: this.index,
+      previewHash: this.previewHash,
+      timestamp: this.timestamp,
+      data: this.data,
+      hash: this.hash,
+      nounce: this.nounce
+    }
   }
 
   // difficulty = 4

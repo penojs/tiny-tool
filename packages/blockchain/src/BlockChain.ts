@@ -58,4 +58,10 @@ export default class BlockChain {
   get lastBlock() {
     return this.chain[this.chain.length - 1];
   }
+
+  toArray(){
+    let arr: any = []
+    this.chain.forEach(block => arr.push(block.toJson()))
+    return arr
+  }
 }
