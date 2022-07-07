@@ -40,6 +40,7 @@ export function isValidChain(blockChain: BlockChain) {
     }
     if(!isMatchDifficulty(hash, difficulty)) return false
     if(hash !== calcHash(index, previewBlock.hash, timestamp, data, nounce)) return false
+    previewBlock = chain[i]
   }
 
   return true

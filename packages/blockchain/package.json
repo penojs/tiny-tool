@@ -1,15 +1,14 @@
 {
-  "name": "blockchain",
+  "name": "@penojs/blockchain",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "A small achieve of blockchain.",
   "author": "advancedcat <wshx1938@163.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "test": "jest",

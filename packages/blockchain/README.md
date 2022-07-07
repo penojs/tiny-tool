@@ -1,11 +1,7 @@
-# `blockchain`
+# `@penojs/blockchain`
 
-> TODO: description
+A small achieve of blockchain.
 
 ## Usage
 
-```
-import blockchain from 'blockchain';
 
-// TODO: DEMONSTRATE API
-```
