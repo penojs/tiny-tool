@@ -1,0 +1,16 @@
+{
+  "name": "@penojs/compose",
+  "version": "0.0.0",
+  "description": "The",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "compose"
+  ],
+  "author": "advancedcat",
+  "license": "MIT"
+}
